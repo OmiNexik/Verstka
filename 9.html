@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/normalize.css">
+    <title>Формы в HTML</title>
+    <meta name="description" content="Формы в HTML">
+</head>
+<body>
+    <h1 style="text-align: center; font-size: x-large; letter-spacing: 1.2cap;" ><u>Анкета</u></h1>
+    <h2 style="color: rgb(31, 147, 255);">
+        Фамилия:
+        <input placeholder="Фамилия" name="text">
+    </h2>
+    <h2 style="color: rgb(31, 147, 255);">
+        Имя:
+        <input placeholder="Имя" name="text">
+    </h2>
+    <h2 style="color: rgb(31, 147, 255);">
+        Отчество:
+        <input placeholder="Отчество" name="text">
+    </h2>
+    <h2 style="color: rgb(31, 147, 255);">
+        Введите пароль :
+        <input type="password" name="pass" form="auth" width="20" size="2">
+    </h2>
+    <h2 style="color: rgb(31, 147, 255);">
+        Введите дату рождения:
+        <br>
+        <input placeholder="00" size="01">
+        <select name="month">
+            <option value="1" selected>Январь</option>
+            <option value="2">Февраль</option>
+            <option value="3">Март </option>
+            <option value="4">Апрель</option>
+            <option value="5">Май</option>
+            <option value="6">Июнь</option>
+            <option value="7">Июль</option>
+            <option value="8">Август</option>
+            <option value="9">Сентябрь</option>
+            <option value="10">Октябрь</option>
+            <option value="11">Ноябрь</option>
+            <option value="12">Декабрь</option>
+        </select>
+        <input placeholder="2004" size="2">
+    </h2>
+    <h2 style="color: rgb(31,147,255);">
+        Укажите самый удобный способ для связи с вами:
+    </h2>
+        <input type="checkbox" name="a" value="Домашний телефо">
+        <input type="text" size="10">Домашний телефон
+    <p>
+        <input type="checkbox" name="a" value="Рабочий телефон" >
+        <input type="text" size="10">Рабочий телефон
+    </p>
+    <p>
+        <input type="checkbox" name="a" value="Электронная почта" >
+        <input type="text" size="10">Электронная почта
+    </p>
+    <h2 style="color: rgb(31, 147, 255);" >
+        Укажите ваше образование:
+        <br>
+        <select name="obrazovanie">
+            <option value="Высшее" selected>Высшее</option>
+            <option value="8 классов как у папича">1 классов как у папика</option>
+            <option value="9 классов"> полное не полное</option>
+        </select>
+    </h2>
+    <h2 style="color: rgb(31, 147, 255);">
+        Немного о себе:
+        <br>
+        <p><iframe name="area" width="200" height="100"></iframe></p>
+    </h2>
+    <div style="text-align:center">
+        <button>Сброс</button>
+        <button>Послать</button>
+    </div>
+</body>
+</html>
